@@ -1,0 +1,14 @@
+{
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501,E303,E226,E231,E225,E302,E305,E701,E126,E123,E251,E201,E202,E203,E211,E124,E402"
+    ],
+    "python.linting.pylintArgs": [
+        "--disable=C0114",
+        "--disable=C0115",
+        "--disable=C0116"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}
